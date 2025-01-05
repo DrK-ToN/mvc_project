@@ -5,6 +5,6 @@ function renderUsers(req, res) {
     res.render("lista", { users });
 }
 
-modelu.exports = {
+module.exports = {
     renderUsers,
 };
